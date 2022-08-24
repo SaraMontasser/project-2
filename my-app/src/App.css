@@ -1,0 +1,75 @@
+.coursesblocks {
+  border-color: rgba(0, 0, 0, 0.303);
+  border-style: solid;
+  border-width: 0.1rem;
+  padding: 1rem 0rem 1rem 2rem;
+  margin: 2% auto;
+  width: 87vw;
+}
+.word {
+  width: 63vw;
+}
+.explore {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-color: #000000;
+  text-decoration: none;
+  color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  display: block;
+  width: 8rem;
+}
+.notesHead {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.pythonimg {
+  width: 13rem;
+  height: 8rem;
+  margin-top: 6%;
+}
+
+.course1 {
+  width: 15rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.pythoncourse {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.checked {
+  color: gold;
+}
+
+.notchecked {
+  color: gold;
+}
+.ratingsection {
+  display: inline-block;
+  color: gold;
+  font-weight: bold;
+}
+
+.money {
+  display: block;
+  font-weight: bold;
+}
+
+s,
+.visiting {
+  color: rgb(111, 110, 110);
+  font-weight: lighter;
+}
+.authorName{
+  display: block;
+}
