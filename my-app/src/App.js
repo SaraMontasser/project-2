@@ -1,9 +1,11 @@
 import './App.css';
 import React from 'react';
 import RenderCourse from './course.js';
+import navBarr from './navBar.js';
 function App() {
   return (
     <div className="App">
+      <navBarr />
       <div className="coursesblocks" id="courseContainer">
         <div className="word">
 
