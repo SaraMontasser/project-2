@@ -6,9 +6,11 @@
   margin: 2% auto;
   width: 87vw;
 }
+
 .word {
   width: 63vw;
 }
+
 .explore {
   background-color: white;
   padding: 10px;
@@ -23,10 +25,12 @@
   display: block;
   width: 8rem;
 }
+
 .notesHead {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
 .pythonimg {
   width: 13rem;
   height: 8rem;
@@ -54,6 +58,7 @@
 .notchecked {
   color: gold;
 }
+
 .ratingsection {
   display: inline-block;
   color: gold;
@@ -70,9 +75,11 @@ s,
   color: rgb(111, 110, 110);
   font-weight: lighter;
 }
-.authorName{
+
+.authorName {
   display: block;
 }
+
 body {
   overflow-x: hidden;
   /* display: contents; */
@@ -132,64 +139,6 @@ body {
 
 }
 
-@media only screen and (max-width:800px) {
-
-  .rightside {
-      display: none;
-  }
-
-  .line {
-      width: 30px;
-      height: 5px;
-      background-color: black;
-      margin: 6px 0 0 15px;
-      display: block !important;
-  }
-
-  .categories {
-      display: none;
-  }
-
-  .logo {
-      margin-left: 17rem;
-      margin-top: -2.5rem;
-  }
-
-  .searchbar {
-      display: none;
-  }
-  .notes{
-      display: none !important;
-  }
-  .notes2{
-      background-color: white;
-  display: block !important;
-  width: 85vw;
-  box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 20%);
-  padding: 3%;
-  align-items: center;
-  margin: 1% auto;
-
-  }
-}
-
-@media only screen and (max-width:1523px) {
-
-  .circlebutton {
-      display: none;
-  }
-
-  .arrow {
-      display: none;
-  }
-
-}
-@media only screen and (max-width:1525px) {
-
-  .teachOnUdemy, .udemyBussiness{
-      display: none;
-  }
-}
 
 .searchicon {
   margin-left: 15px;
@@ -232,4 +181,112 @@ body {
 
 .middle {
   margin: 0.4% 1% 1% 1%;
+}
+
+.imgbanner {
+  margin-top: 3%;
+  padding: 2% 2% 2% 4%;
+  position: relative;
+}
+
+.bannerimg {
+  margin-top: -4.5%;
+  margin-left: -1%;
+  width: 100%;
+}
+
+
+.notesHead {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.notesword {
+  font-size: 1.2rem;
+}
+
+.notes {
+  margin-top: -23%;
+  background-color: white;
+  box-shadow: 0px 0px 8px 0px rgb(0, 0, 0, 0.2);
+  padding: 2%;
+  align-items: center;
+  position: absolute;
+  margin-left: 5%;
+}
+
+.notes2 {
+  display: none;
+}
+
+.coursesnote {
+  padding: 20px 20px 1px 20px;
+  margin-left: 5%;
+}
+
+.courses {
+  background-color: white;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-left: 5.8rem;
+}
+
+@media only screen and (max-width:800px) {
+
+  .rightside {
+    display: none;
+  }
+
+  .line {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0 0 15px;
+    display: block !important;
+  }
+
+  .categories {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 17rem;
+    margin-top: -2.5rem;
+  }
+
+  .searchbar {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:1525px) {
+
+  .teachOnUdemy,
+  .udemyBussiness {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:1133px) {
+
+  .notes {
+    display: none !important;
+  }
+
+  .notes2 {
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px rgb(0, 0, 0, 0.2);
+    padding: 3%;
+    align-items: center;
+    margin: 1% auto;
+    display: block !important;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
 }

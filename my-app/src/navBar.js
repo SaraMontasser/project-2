@@ -1,5 +1,5 @@
 import React from 'react'
-
+import LogoImg from './img/logo-udemy.svg'
 export default function navBar() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function navBar() {
 
     <div className="leftside">
 
-      <img src="img/logo-udemy.svg" alt="udemy logo" className="logo" />
+      <img src={LogoImg} alt="udemy logo" className="logo" />
       <a href="#" className="categories">Categories</a>
     </div>
     <div className="middle">
@@ -50,5 +50,5 @@ export default function navBar() {
     </div>
   </div>
   </>
-  );
+  )
 }
