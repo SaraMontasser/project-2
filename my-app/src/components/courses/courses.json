@@ -2,6 +2,7 @@
     {
       "id": 1,
       "title": "Learn Python: The Complete Python Programming Course",
+      "paths":"python1",
       "author": "Avinash Jain, The Codex",
       "rate": 4.4,
       "reviewers": "(2,923)",
@@ -11,6 +12,7 @@
     },
     {
       "id": 2,
+      "paths":"python2",
       "title": "Learning Python for Data Analysis and Visualization",
       "author": "Jose Portilla",
       "rate": 4.4,
@@ -21,6 +23,7 @@
     },
     {
       "id": 3,
+      "paths":"python3",
       "title": "Python for Beginners - Learn Programming from scratch",
       "author": "Jose Portilla",
       "rate": 4.4,
@@ -31,6 +34,7 @@
     },
     {
       "id": 4,
+      "paths":"python4",
       "title": "Learn Python: Python for Beginners",
       "author": "Avinash Jain, The Codex",
       "rate": 4.4,
@@ -41,6 +45,7 @@
     },
     {
       "id": 5,
+      "paths":"python5",
       "title": "Python Beyond the Basics - Object-Oriented Programming",
       "author": "Avinash Jain, The Codex",
       "rate": 4.4,

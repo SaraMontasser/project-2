@@ -235,7 +235,74 @@ body {
   display: inline-block;
   margin-left: 5.8rem;
 }
+.circlebutton {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  margin-top: 3.5rem;
+  background-color: #000000;
+  right: 9%;
+}
 
+.arrow {
+  color: white;
+}
+.top-Companies{
+  background-color: #1c1d1f;
+  padding: 2%;
+  border-bottom: 0.5px solid white;
+}
+.udemy-business{
+  color: #cec0fc;
+  text-decoration: none;
+}
+.footer-note{
+  font-weight:bold;
+  font-size: 18px;
+  color: white;
+  margin-right: 15%;
+  display: inline-block;
+}
+  .companies-icons{
+    display: inline-block;
+    }
+.lower-part{
+  background-color: #1c1d1f;
+ padding: 2%;
+height: 100%;
+}
+.link-column{
+  margin-right:5% ;
+  display: inline-block;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.language-button{
+  background-color: #1c1d1f;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  font-size: 15px;
+  border: white 0.5px solid;
+  float: right;
+  
+}
+li{
+  
+  list-style-type:none;
+}
+.copy-rights{
+  padding: 4% 2%;
+}
+.copy-rights p{
+ font-size: 78%;
+ float: right;
+ color: white;
+ margin: 2%;
+}
 @media only screen and (max-width:800px) {
 
   .rightside {
@@ -289,4 +356,15 @@ body {
     margin-right: 3%;
     margin-left: 3%;
   }
+}
+@media only screen and (max-width:1511.5px) {
+
+  .circlebutton {
+      display: none;
+  }
+
+  .arrow {
+      display: none;
+  }
+
 }
