@@ -353,6 +353,28 @@ li{
 .course-type{
   color: #cec0fc;
 }
+.learn-box{
+  margin: 1% 18%;
+  border: 1px solid gray;
+  padding: 1%;
+}
+.column1{
+  display: inline-block;
+}
+.learn-column{
+  display: inline-block;
+}
+.learn-column2{
+  /* display: inline-block; */
+  /* margin-left: 5%; */
+  float: right;
+    margin-right: 5%;
+}
+.learn-headline{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 3%;
+}
 @media only screen and (max-width:800px) {
 
   .rightside {

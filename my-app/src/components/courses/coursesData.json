@@ -15,6 +15,13 @@
             "price": "E£679.99",
             "oldPrice": "E£ 1,599.99",
             "lastupdated": "9/2015",
+            "learn":[{
+                "learn1":"Create their own Python Programs",
+                "learn2":"Become an experienced Python Programmer",
+                "learn3":"Parse the Web and Create their own Games"
+            }
+
+            ],
             "reviews": [
                 {
                     "id": "l7rpollw8q6z5c5qfca",
@@ -419,6 +426,17 @@
             "price": "E£679.99",
             "oldPrice": "E£ 1,599.99",
             "lastupdated": "9/2019",
+            "learn":[{
+                "learn1":"Have an intermediate skill level of Python programming.",
+                "learn2":"Use the Jupyter Notebook Environment.",
+                "learn3":"Use the numpy library to create and manipulate arrays.",
+                "learn4":"Use the pandas module with Python to create and structure data.",
+                "learn5":"Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets.",
+                "learn6":"Create data visualizations using matplotlib and the seaborn modules with python.",
+                "learn7":"Have a portfolio of various data analysis projects."
+            }
+
+            ],
             "instructors": [
                 {
                     "id": "l7s3zcw4u2b2fu5fjn",
