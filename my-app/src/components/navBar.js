@@ -94,7 +94,7 @@ export default function NavBar() {
 
 
           <button className="langbutton">
-            <i className="fa fa-language"></i>
+          <i class="fa fa-globe"></i>
 
           </button>
 

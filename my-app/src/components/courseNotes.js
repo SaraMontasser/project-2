@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import RenderCourse from './course.js';
-export default function courseNotes() {
+import LoadingSpinner from './loadingSpinner'
+export default function courseNotes(props) {
     return (
         <div>
             <div className="coursesblocks" id="courseContainer">
@@ -17,10 +18,15 @@ export default function courseNotes() {
                 <a href="#" className="explore">
                     Explore Python
                 </a>
+                {props.CoursesData!=null? 
+                <>                
                 <RenderCourse />
-                <button className="circlebutton">
-                    <i className="fa fa-chevron-right arrow"></i>
-                </button>
+                    <button className="circlebutton">
+                        <i className="fa fa-chevron-right arrow"></i>
+                    </button>
+                </>: <LoadingSpinner />
+
+                }
             </div>
         </div>
     )

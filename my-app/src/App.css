@@ -63,6 +63,7 @@
   display: inline-block;
   color: gold;
   font-weight: bold;
+  margin-right: 1%;
 }
 
 .money {
@@ -302,6 +303,55 @@ li{
  float: right;
  color: white;
  margin: 2%;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 80px;
+  height: 80px;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #383636;
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+  display: block;
+  margin: 5% auto;
+}
+.course-info{
+  background-color: #1c1d1f;
+  padding: 1% 1% 1% 18%;
+}
+.course-title{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.course-description{
+  color: white;
+}
+.course-reviewers{
+  font-weight: lighter;
+  margin-left: 1%;
+}
+.course-enrollment,.last-updated,.course-language{
+  color: white;
+  font-weight: lighter;
+  margin: 0 2% 0 1%;
+  display: inline-block;
+}
+.closed-caption,.exclamation-circle,.course-creation,.global,.angle-right{
+  color: white;
+}
+.angle-right{
+  margin: 0 1%;
+}
+.course-type{
+  color: #cec0fc;
 }
 @media only screen and (max-width:800px) {
 
