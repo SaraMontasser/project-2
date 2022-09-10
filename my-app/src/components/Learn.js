@@ -1,8 +1,28 @@
 import React from 'react'
 
 export default function Learn(props) {
-    console.log(props.courseinfo);
     const learn=props.courseinfo;
+   function oddColumn(){
+    const rows = [];
+        for(var i=0;i<learn.length;i+=2){
+            rows.push( <li>
+            <i class="fa fa-check check" aria-hidden="true"></i>
+            <p className='column1'>{learn[i]}</p>
+            </li>);
+        }
+        return rows;
+    }
+    function evenColumn(){
+        const rows = [];
+        for(var i=1;i<learn.length;i+=2){
+            rows.push(<li>
+            <i class="fa fa-check check" aria-hidden="true"></i>
+            <p className='column1'>{learn[i]}</p>
+            </li>);
+        }
+        return rows;
+    }
+    
   return (
     <div>
         <div className='learn-box'>
@@ -10,20 +30,10 @@ export default function Learn(props) {
                 What you'll learn
             </p>
         <ul className='learn-column'>
-                <li>
-                <i class="fa fa-check check" aria-hidden="true"></i>
-                <p className='column1'>{learn.learn1}</p>
-                    </li>
-                    <li>
-                    <i class="fa fa-check check" aria-hidden="true"></i>
-                    <p className='column1'>{learn.learn3}</p>
-                    </li>
+                {oddColumn()}
                 </ul>
                 <ul className='learn-column2'>
-                <li >
-                <i class="fa fa-check check" aria-hidden="true"></i>
-                <p className='column1'>{learn.learn2}</p>
-                    </li>
+                {evenColumn()}
                 </ul>
         </div>
     </div>

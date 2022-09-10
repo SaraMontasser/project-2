@@ -15,11 +15,11 @@
             "price": "E£679.99",
             "oldPrice": "E£ 1,599.99",
             "lastupdated": "9/2015",
-            "learn":[{
-                "learn1":"Create their own Python Programs",
-                "learn2":"Become an experienced Python Programmer",
-                "learn3":"Parse the Web and Create their own Games"
-            }
+            "learn":[
+                "Create their own Python Programs",
+                "Become an experienced Python Programmer",
+                "Parse the Web and Create their own Games"
+            
 
             ],
             "reviews": [
@@ -122,7 +122,7 @@
             ],
             "lectures": [
                 {
-                    "id": "l7rpolim4v45vekj8ku",
+                    "id": "One",
                     "title": "Up and Running With Python",
                     "lessons": [
                         "Installing Python",
@@ -130,7 +130,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpolizsn4n2f0z4ps",
+                    "id": "Two",
                     "title": "The Basics (Data Types)",
                     "lessons": [
                         "Variables",
@@ -147,7 +147,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpolj8r9ofza0jruq",
+                    "id": "Three",
                     "title": "Conditions and Loops",
                     "lessons": [
                         "If-Else Statements",
@@ -166,7 +166,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpoljh5y40740yc8",
+                    "id": "Four",
                     "title": "Functions!",
                     "lessons": [
                         "Creating our own Functions",
@@ -179,7 +179,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpoljop5jbx31vsdm",
+                    "id": "Five",
                     "title": "Classes! (Object Orientated Programming)",
                     "lessons": [
                         "Basics of Classes",
@@ -190,7 +190,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpoljvwfa1553dx9p",
+                    "id": "Six",
                     "title": "File Input/Output",
                     "lessons": [
                         "Creating a File",
@@ -202,7 +202,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpolk2k530g346uy",
+                    "id": "Seven",
                     "title": "Using Python Modules",
                     "lessons": [
                         "Random Module - Randint",
@@ -220,7 +220,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpolkbqw25eot3vak",
+                    "id": "Eight",
                     "title": "Crawling The Web",
                     "lessons": [
                         "Re Module",
@@ -233,7 +233,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpolkjquhc8tz54ml",
+                    "id": "Nine",
                     "title": "Beautiful Soup HTML Parsing",
                     "lessons": [
                         "Intro to Beautiful Soup",
@@ -248,7 +248,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpolkqh9j47eld55k",
+                    "id": "Ten",
                     "title": "MatPlotLib - Charts, Plots and 3D Figures!",
                     "lessons": [
                         "Intro to MatPlotLib",
@@ -274,7 +274,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpolkyu7oublnpnb",
+                    "id": "Eleven",
                     "title": "Data Analysis with Pandas!",
                     "lessons": [
                         "Intro to Pandas",
@@ -297,7 +297,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpoll51akp7ixl8py",
+                    "id": "Twelve",
                     "title": "Python GUI with Tkinter",
                     "lessons": [
                         "Tkinter Introduction",
@@ -328,7 +328,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpolldqkqhd52zou",
+                    "id": "Thirteen",
                     "title": "Our First Game (Bounce!)",
                     "lessons": [
                         "Creating our Ball",
@@ -340,7 +340,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpollkqccquiarqm",
+                    "id": "Fourteen",
                     "title": "Our Second Game (Pong!)",
                     "lessons": [
                         "Creating our Ball",
@@ -351,7 +351,7 @@
                     ]
                 },
                 {
-                    "id": "l7rpollqabzq0h7jvyc",
+                    "id": "Fifteen",
                     "title": "What's Next?",
                     "lessons": [
                         "Up and Beyond!"

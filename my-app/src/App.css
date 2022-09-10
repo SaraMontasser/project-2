@@ -375,6 +375,16 @@ li{
   font-weight: bold;
   margin-left: 3%;
 }
+.content-box{
+  margin: 1% 18%;
+}
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #f7f9fa;
+}
+.accordion-button {
+  background-color: #f7f9fa;
+}
 @media only screen and (max-width:800px) {
 
   .rightside {
