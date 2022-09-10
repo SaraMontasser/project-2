@@ -387,11 +387,11 @@ li{
   list-style-type:disc !important;
   color: #000000;
 }
-.requirements{
+.requirements,.description{
   font-weight: bold;
   font-size: 25px;
 }
-.requirements-box{
+.requirements-box,.description-box{
   margin: 1% 18%;
 }
 @media only screen and (max-width:800px) {

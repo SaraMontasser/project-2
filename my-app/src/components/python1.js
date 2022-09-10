@@ -5,6 +5,7 @@ import CourseInfo from './CourseInfo'
 import Learn from './Learn';
 import CourseContent from './CourseContent';
 import Requirements from './Requirements';
+import Description from './Description';
 export default function python1(props) {
   if(props.data==null){
     return (
@@ -19,6 +20,7 @@ export default function python1(props) {
         <Learn courseinfo={courseData.learn}/>
         <CourseContent courseinfo={courseData.lectures}/>
         <Requirements courseinfo={courseData.requirements}/>
+        <Description courseinfo={courseData.descriptions}/>
         <Footer />
     </div>
   )
