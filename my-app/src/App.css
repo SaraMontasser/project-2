@@ -387,12 +387,26 @@ li{
   list-style-type:disc !important;
   color: #000000;
 }
-.requirements,.description{
+.requirements,.description,.instructors{
   font-weight: bold;
   font-size: 25px;
 }
-.requirements-box,.description-box{
+.requirements-box,.description-box,.instructors-box{
   margin: 1% 18%;
+}
+.instructor-name{
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+.instructor-job{
+  font-size: 17px;
+  display: block;
+  color: #6a6f73;
+}
+.instructor-photo{
+  border-radius: 50%;
+  margin-top: -11%;
 }
 @media only screen and (max-width:800px) {
 
