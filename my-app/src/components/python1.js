@@ -4,6 +4,7 @@ import LoadingSpinner from './loadingSpinner';
 import CourseInfo from './CourseInfo'
 import Learn from './Learn';
 import CourseContent from './CourseContent';
+import Requirements from './Requirements';
 export default function python1(props) {
   if(props.data==null){
     return (
@@ -17,6 +18,7 @@ export default function python1(props) {
         <CourseInfo courseinfo={courseData}/>
         <Learn courseinfo={courseData.learn}/>
         <CourseContent courseinfo={courseData.lectures}/>
+        <Requirements courseinfo={courseData.requirements}/>
         <Footer />
     </div>
   )

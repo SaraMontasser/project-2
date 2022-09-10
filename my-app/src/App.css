@@ -365,8 +365,6 @@ li{
   display: inline-block;
 }
 .learn-column2{
-  /* display: inline-block; */
-  /* margin-left: 5%; */
   float: right;
     margin-right: 5%;
 }
@@ -384,6 +382,17 @@ li{
 }
 .accordion-button {
   background-color: #f7f9fa;
+}
+.requirement-column{
+  list-style-type:disc !important;
+  color: #000000;
+}
+.requirements{
+  font-weight: bold;
+  font-size: 25px;
+}
+.requirements-box{
+  margin: 1% 18%;
 }
 @media only screen and (max-width:800px) {
 
