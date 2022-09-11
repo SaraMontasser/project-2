@@ -450,15 +450,15 @@
             "price": "E£679.99",
             "oldPrice": "E£ 1,599.99",
             "lastupdated": "9/2019",
-            "learn":[{
-                "learn1":"Have an intermediate skill level of Python programming.",
-                "learn2":"Use the Jupyter Notebook Environment.",
-                "learn3":"Use the numpy library to create and manipulate arrays.",
-                "learn4":"Use the pandas module with Python to create and structure data.",
-                "learn5":"Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets.",
-                "learn6":"Create data visualizations using matplotlib and the seaborn modules with python.",
-                "learn7":"Have a portfolio of various data analysis projects."
-            }
+            "learn":[
+                "Have an intermediate skill level of Python programming.",
+                "Use the Jupyter Notebook Environment.",
+                "Use the numpy library to create and manipulate arrays.",
+                "Use the pandas module with Python to create and structure data.",
+                "Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets.",
+                "Create data visualizations using matplotlib and the seaborn modules with python.",
+                "Have a portfolio of various data analysis projects."
+            
 
             ],
             "instructors": [
@@ -476,302 +476,362 @@
             ],
             "lectures": [
                 {
-                    "id": "l7s3zcsf3wf8spurcy4",
-                    "title": "Intro to Course and Python",
+                    "id": "One",
+                    "title": "Up and Running With Python",
                     "lessons": [
-                        "Course Intro",
-                        "Course FAQs"
+                        "Installing Python",
+                        "Hello World"
                     ]
                 },
                 {
-                    "id": "l7s3zcsq698q4p9xsau",
-                    "title": "Setup",
+                    "id": "Two",
+                    "title": "The Basics (Data Types)",
                     "lessons": [
-                        "Installation Setup and Overview",
-                        "IDEs and Course Resources",
-                        "iPython/Jupyter Notebook Overview"
+                        "Variables",
+                        "Multiple Assignment",
+                        "Data Types and Ints",
+                        "Strings",
+                        "Placeholders",
+                        "Lists/Arrays",
+                        "List Functions",
+                        "Dictionaries",
+                        "Dictionary Functions",
+                        "Tuples",
+                        "Exercise Files"
                     ]
                 },
                 {
-                    "id": "l7s3zct0cqe1q6ormp9",
-                    "title": "Learning Numpy",
+                    "id": "Three",
+                    "title": "Conditions and Loops",
                     "lessons": [
-                        "Intro to numpy",
-                        "Creating arrays",
-                        "Using arrays and scalars",
-                        "Indexing Arrays",
-                        "Array Transposition",
-                        "Universal Array Function",
-                        "Array Processing",
-                        "Array Input and Output"
+                        "If-Else Statements",
+                        "Relational Operators",
+                        "Nested If/Else",
+                        "Elif Statements",
+                        "Logical Operators",
+                        "For Loops",
+                        "While Loops",
+                        "Nested For Loops",
+                        "Pass, Break and Continue",
+                        "Try and Except",
+                        "Commenting",
+                        "Quick Tips",
+                        "Exercise Files"
                     ]
                 },
                 {
-                    "id": "l7s3zct9mrmiu66t2w",
-                    "title": "Intro to Pandas",
+                    "id": "Four",
+                    "title": "Functions!",
                     "lessons": [
-                        "Series",
-                        "DataFrames",
-                        "Index objects",
-                        "Reindex",
-                        "Drop Entry",
-                        "Selecting Entries",
-                        "Data Alignment",
-                        "Rank and Sort",
-                        "Summary Statistics",
-                        "Missing Data",
-                        "Index Hierarchy"
+                        "Creating our own Functions",
+                        "Global and Local Vars",
+                        "Abs and Bool",
+                        "Help and Dir",
+                        "Eval and Exec",
+                        "Str, Int, Float",
+                        "Recap and Sum"
                     ]
                 },
                 {
-                    "id": "l7s3zcti11pb3wo1zdh8",
-                    "title": "Working with Data: Part 1",
+                    "id": "Five",
+                    "title": "Classes! (Object Orientated Programming)",
                     "lessons": [
-                        "Reading and Writing Text Files",
-                        "JSON with Python",
-                        "HTML with Python",
-                        "Microsoft Excel files with Python"
+                        "Basics of Classes",
+                        "Functions in Classes",
+                        "Class Attributes",
+                        "Inheritance",
+                        "Overriding Methods"
                     ]
                 },
                 {
-                    "id": "l7s3zctrijboocng949",
-                    "title": "Working with Data: Part 2",
+                    "id": "Six",
+                    "title": "File Input/Output",
                     "lessons": [
-                        "Merge",
-                        "Merge on Index",
-                        "Concatenate",
-                        "Combining DataFrames",
-                        "Reshaping",
-                        "Pivoting",
-                        "Duplicates in DataFrames",
-                        "Mapping",
-                        "Replace",
-                        "Rename Index",
-                        "Binning",
-                        "Outliers",
-                        "Permutation"
+                        "Creating a File",
+                        "Creating a File (Windows)",
+                        "Reading a File",
+                        "Writing to a File",
+                        "Appending to Files",
+                        "Copying Files"
                     ]
                 },
                 {
-                    "id": "l7s3zctzgg04qi94y1m",
-                    "title": "Working with Data: Part 3",
+                    "id": "Seven",
+                    "title": "Using Python Modules",
                     "lessons": [
-                        "GroupBy on DataFrames",
-                        "GroupBy on Dict and Series",
-                        "Aggregation",
-                        "Splitting Applying and Combining",
-                        "Cross Tabulation"
+                        "Random Module - Randint",
+                        "Guessing Game",
+                        "Guessing Game Challenge",
+                        "Random Module - Shuffle and Choice",
+                        "Sys Module",
+                        "Time Module",
+                        "Turtle Module",
+                        "For Loops in Turtle",
+                        "Up and Down Functions",
+                        "Coloring in Turtle",
+                        "Functions in Turtle",
+                        "Exercise Files"
                     ]
                 },
                 {
-                    "id": "l7s3zcu7or65i7167o",
-                    "title": "Data Visualization",
+                    "id": "Eight",
+                    "title": "Crawling The Web",
                     "lessons": [
-                        "Installing Seaborn",
-                        "Histograms",
-                        "Kernel Density Estimate Plots",
-                        "Combining Plot Styles",
-                        "Box and Violin Plots",
-                        "Regression Plots",
-                        "Heatmaps and Clustered Matrices"
+                        "Re Module",
+                        "Crawling The Web (Stocks)",
+                        "Stock Quotes (.py)",
+                        "Crawling The Web (Weather)",
+                        "Weather (.py)",
+                        "Crawling The Web (Definition)",
+                        "Definition (.py)"
                     ]
                 },
                 {
-                    "id": "l7s3zcufid6sqeliin",
-                    "title": "Example Projects.",
+                    "id": "Nine",
+                    "title": "Beautiful Soup HTML Parsing",
                     "lessons": [
-                        "Data Projects Preview",
-                        "Intro to Data Projects",
-                        "Titanic Project - Part 1",
-                        "Titanic Project - Part 2",
-                        "Titanic Project - Part 3",
-                        "Titanic Project - Part 4",
-                        "Intro to Data Project - Stock Market Analysis",
-                        "Data Project - Stock Market Analysis Part 1",
-                        "Data Project - Stock Market Analysis Part 2",
-                        "Data Project - Stock Market Analysis Part 3",
-                        "Data Project - Stock Market Analysis Part 4",
-                        "Data Project - Stock Market Analysis Part 5",
-                        "Data Project - Intro to Election Analysis",
-                        "Data Project - Election Analysis Part 1",
-                        "Data Project - Election Analysis Part 2",
-                        "Data Project - Election Analysis Part 3",
-                        "Data Project - Election Analysis Part 4"
+                        "Intro to Beautiful Soup",
+                        "Installing the Beautiful Soup Module",
+                        "Prettify with Soup",
+                        "Drilling Down",
+                        "Functions in Soup",
+                        ".String and .Parent",
+                        "Searching in Soup",
+                        "Weather Parsing",
+                        "Antonym Parsing"
                     ]
                 },
                 {
-                    "id": "l7s3zcuri5k42cz499",
-                    "title": "Machine Learning",
+                    "id": "Ten",
+                    "title": "MatPlotLib - Charts, Plots and 3D Figures!",
                     "lessons": [
-                        "Introduction to Machine Learning with SciKit Learn",
-                        "Linear Regression Part 1",
-                        "Linear Regression Part 2",
-                        "Linear Regression Part 3",
-                        "Linear Regression Part 4",
-                        "Logistic Regression Part 1",
-                        "Logistic Regression Part 2",
-                        "Logistic Regression Part 3",
-                        "Logistic Regression Part 4",
-                        "Multi Class Classification Part 1 - Logistic Regression",
-                        "Multi Class Classification Part 2 - k Nearest Neighbor",
-                        "Support Vector Machines Part 1",
-                        "Support Vector Machines - Part 2",
-                        "Naive Bayes Part 1",
-                        "Naive Bayes Part 2",
-                        "Decision Trees and Random Forests",
-                        "Natural Language Processing Part 1",
-                        "Natural Language Processing Part 2",
-                        "Natural Language Processing Part 3",
-                        "Natural Language Processing Part 4"
+                        "Intro to MatPlotLib",
+                        "First Graph!",
+                        "Understanding the MatPlotLib Interface",
+                        "Graph Labels",
+                        "Creating a Graph from a File",
+                        "Understanding SubPlots and Figures",
+                        "Coloring of Graph",
+                        "Multiple Plots in a Graph",
+                        "Multiple Graphs in a Figure",
+                        "What about 3 graphs?",
+                        "Bar Graphs Intro",
+                        "Modifying our Bar Graph",
+                        "Pie Chart Intro",
+                        "Modifying our Pie Chart",
+                        "Adding a Legend",
+                        "3D Graphics Intro",
+                        "3D Scatter Plots",
+                        "Multiple 3D Scatter Plots",
+                        "3D Bar Graphs",
+                        "3D Wireframes"
                     ]
                 },
                 {
-                    "id": "l7s3zcv0vx2pt8va3v",
-                    "title": "Appendix: Statistics Overview",
+                    "id": "Eleven",
+                    "title": "Data Analysis with Pandas!",
                     "lessons": [
-                        "Intro to Appendix B",
-                        "Discrete Uniform Distribution",
-                        "Continuous Uniform Distribution",
-                        "Binomial Distribution",
-                        "Poisson Distribution",
-                        "Normal Distribution",
-                        "Sampling Techniques",
-                        "T-Distribution",
-                        "Hypothesis Testing and Confidence Intervals",
-                        "Chi Square Test and Distribution",
-                        "Bayes Theorem"
+                        "Intro to Pandas",
+                        "Series Data Structure",
+                        "Series Continuation",
+                        "Data Frames Intro",
+                        "Creating a CSV",
+                        "Reading a CSV",
+                        "Writing to a CSV",
+                        "Getting our Data",
+                        "Slicing Data Frames",
+                        "Data Manipulation",
+                        "Indexing and More",
+                        "Merging Data Frames",
+                        "GroupBy Function",
+                        "MovieLens Data",
+                        "Heavy Data Analysis",
+                        "MatPlotLib with Pandas",
+                        "Let's Finish This"
                     ]
                 },
                 {
-                    "id": "l7s3zcv8ytsg7svfmzs",
-                    "title": "Appendix: SQL and Python",
+                    "id": "Twelve",
+                    "title": "Python GUI with Tkinter",
                     "lessons": [
-                        "Introduction to SQL with Python",
-                        "SQL - SELECT,DISTINCT,WHERE,AND & OR",
-                        "SQL WILDCARDS, ORDER BY, GROUP BY and Aggregate Functions"
+                        "Tkinter Introduction",
+                        "Labels",
+                        "Buttons",
+                        "Layouts",
+                        "Fill",
+                        "Grid Layout",
+                        "Entries",
+                        "Check Buttons",
+                        "GUI Login",
+                        "Actions on Button Click",
+                        "Binding Functions",
+                        "More Binding!",
+                        "Getting Entry Data",
+                        "Message Box",
+                        "Drop Down Menus",
+                        "Calculator Part 1",
+                        "Calculator Part 2",
+                        "Calculator Part 3",
+                        "Calculator Part 4",
+                        "Canvas Intro",
+                        "Canvas Objects",
+                        "Canvas Fill",
+                        "Random Rectangle Generator",
+                        "Text and Arcs",
+                        "Animations"
                     ]
                 },
                 {
-                    "id": "l7s3zcvgkkewl8b743h",
-                    "title": "Appendix: Web Scraping with Python",
+                    "id": "Thirteen",
+                    "title": "Our First Game (Bounce!)",
                     "lessons": [
-                        "Web Scraping Part 1",
-                        "Web Scraping Part 2"
+                        "Creating our Ball",
+                        "Adding the Game Interface",
+                        "Adding the Paddle",
+                        "Final Touches",
+                        "Recap",
+                        "Bounce! (.py) (v1/v2/v3)"
                     ]
                 },
                 {
-                    "id": "l7s3zcvoq1wcbpcqk5a",
-                    "title": "Appendix: Python Special Offers",
+                    "id": "Fourteen",
+                    "title": "Our Second Game (Pong!)",
                     "lessons": [
-                        "Python Overview Part 1",
-                        "Python Overview Part 2",
-                        "Python Overview Part 3"
+                        "Creating our Ball",
+                        "Adding Paddle1",
+                        "Adding Paddle2",
+                        "Final Touches",
+                        "Pong! (.py)"
                     ]
                 },
                 {
-                    "id": "l7s3zcvwf6rzamp0hm7",
-                    "title": "BONUS SECTION: THANK YOU!",
+                    "id": "Fifteen",
+                    "title": "What's Next?",
                     "lessons": [
-                        "Bonus Lecture"
+                        "Up and Beyond!"
                     ]
                 }
             ],
             "reviews": [
                 {
-                    "id": "l7s3zcw452qs8u2c6cj",
-                    "name": "Bryan P.",
-                    "initials": "BP",
-                    "rating": 2.5,
-                    "timeago": "3 weeks ago",
-                    "review": "His voice in each video can either be audible or barely audible. If it was consistent then it would be fine, but I have to keep adjusting the volume."
+                    "id": "l7rpollw8q6z5c5qfca",
+                    "name": "Asif H.",
+                    "initials": "AH",
+                    "fullrating": 3,
+                    "halfrating": 0,
+                    "norating": 2,
+                    "timeago": "2 weeks ago",
+                    "review": "Sometimes confusing but was able to clarify. Good job nonetheless."
                 },
                 {
-                    "id": "l7s3zcw5ir02k6j3fu",
-                    "name": "Redon D.",
-                    "initials": "RD",
-                    "rating": 4,
+                    "id": "l7rpollxz9ab2b1doqm",
+                    "name": "M.S.Swaroop",
+                    "initials": "M",
+                    "fullrating": 4,
+                    "halfrating": 0,
+                    "norating": 1,
                     "timeago": "3 weeks ago",
-                    "review": "I found the course to be amazing, the instructor was clear and easy to follow. The instructions were easily available and covered almost every thing I could have asked for. The Q&A section was helpful as well. One negative aspect was that it did not exhaust all the topic especially from the data visualization were matplotlib did not even have a section."
+                    "review": "the course is specialized so that we learn ourselves deeply,simple and easy"
                 },
                 {
-                    "id": "l7s3zcw5fe6kf960ek",
-                    "name": "Tanishq",
-                    "initials": "T",
-                    "rating": 5,
+                    "id": "l7rpollx9jb84uayawk",
+                    "name": "Saurish R.",
+                    "initials": "SR",
+                    "fullrating": 5,
+                    "halfrating": 0,
+                    "norating": 0,
                     "timeago": "2 months ago",
-                    "review": "course is good but please update these course because many of the code which is being used has been updated and some of the code doesn't work because of updating please mention these kind of thing while purchase because if you provide a updated course with 500 i thing you sale will boost up may be you ca raise price around 1500 rs we can spend that much of money for knowledge"
+                    "review": "In depth concepts of python have been clearly explained. Good chemistry between student and instructor. Fantastic course. Completed every vid and had lot of fun"
                 },
                 {
-                    "id": "l7s3zcw5qcgink5cr49",
-                    "name": "Jerell S.",
-                    "initials": "JS",
-                    "rating": 5,
+                    "id": "l7rpollxa9smq7msael",
+                    "name": "Shiristi",
+                    "initials": "S",
+                    "fullrating": 5,
+                    "halfrating": 0,
+                    "norating": 0,
                     "timeago": "3 months ago",
-                    "review": "Instructor was very clear and knowledgeable. I was able to understand all the concepts and apply them. The course was a little outdated but I was still able to get almost everything to work."
+                    "review": "i can't say as i have not taken that many classes yet but so far it is good.edited( so yeah it was a journey for me many things happen but i am glad they did and also grateful to the person who is guiding me and thanks udemy for these courses really appreciate it !!!)"
                 },
                 {
-                    "id": "l7s3zcw5mhpwg46m0m",
-                    "name": "Sechaba M.",
-                    "initials": "SM",
-                    "rating": 4.5,
-                    "timeago": "5 months ago",
-                    "review": "Really enjoyed the course, being a total beginner it really set a good foundation."
-                },
-                {
-                    "id": "l7s3zcw5h4vvlba8kbk",
-                    "name": "Mouayad M.",
-                    "initials": "MM",
-                    "rating": 2,
-                    "timeago": "a month ago",
-                    "review": "Felt like many code parts / concepts were skimmed over with no explanation whatsoever - I understand that many concepts were previously explained or encouraged to further explore by yourself, however some code parts should've been atleast explained to some degree. Big fan of Jose in general from this other courses, I think he's a great tutor"
-                },
-                {
-                    "id": "l7s3zcw5qstgkkxd96",
-                    "name": "Justin M.",
-                    "initials": "JM",
-                    "rating": 5,
-                    "timeago": "4 weeks ago",
-                    "review": "Awesome teacher! I'm enjoying the presented course material and learning a lot. Thank you Jose !!!!!"
-                },
-                {
-                    "id": "l7s3zcw5quz4r04xm",
-                    "name": "Ferdinand I.",
-                    "initials": "FI",
-                    "rating": 5,
-                    "timeago": "a month ago",
-                    "review": "I haven't even finished the course actually, but I must commend its so so amazing and its worth it."
-                },
-                {
-                    "id": "l7s3zcw5q8hjxhvdiz",
-                    "name": "Nathan K.",
-                    "initials": "NK",
-                    "rating": 1,
-                    "timeago": "3 months ago",
-                    "review": "Very dry lectures, he talks about code without explaining what each means. Plus a lot of the code is out of date and invalid. There are also loads of typos in the Jupyter Notebook that just make the course seem sloppy. Would definitely not recommend buying this one in 2022."
-                },
-                {
-                    "id": "l7s3zcw5wi02loe0cjp",
-                    "name": "Bhuvana R.",
-                    "initials": "BR",
-                    "rating": 3,
-                    "timeago": "3 months ago",
-                    "review": "Lots of codes relate to Python2 and it has been very difficult to search constantly search for the replacement for the deprecated commands"
-                },
-                {
-                    "id": "l7s3zcw5vl43we0p4k",
-                    "name": "Abraham B.",
-                    "initials": "",
-                    "rating": 4,
-                    "timeago": "3 months ago",
-                    "review": "many of the syntax are old...may renew them :D"
-                },
-                {
-                    "id": "l7s3zcw50y3zntnco1b",
-                    "name": "Ilaria B.",
-                    "initials": "IB",
-                    "rating": 5,
+                    "id": "l7rpollxcf4cmtbv85p",
+                    "name": "Ejeshi G.",
+                    "initials": "EG",
+                    "fullrating": 4,
+                    "halfrating": 0,
+                    "norating": 1,
                     "timeago": "4 months ago",
-                    "review": "Yes, courses broken down in small digestible videos, easy to follow along"
+                    "review": "teacher is good and direct, though not prompt at responding to questions and enquiries"
+                },
+                {
+                    "id": "l7rpollxfpetrzzflk",
+                    "name": "Sreelakshmi A.",
+                    "initials": "SA",
+                    "fullrating": 3,
+                    "halfrating": 1,
+                    "norating": 1,
+                    "timeago": "2 months ago",
+                    "review": "The contents are good for getting a good idea about Python. But it's little bit outdated. Instructor is good. But the sound quality can be improved. Please try to update the content. The course is almost 5 - 6 years old. So, think before purchasing."
+                },
+                {
+                    "id": "l7rpollxh9262y11bzj",
+                    "name": "Shyam K.",
+                    "initials": "SK",
+                    "fullrating": 3,
+                    "halfrating": 0,
+                    "norating": 2,
+                    "timeago": "2 weeks ago",
+                    "review": "not from the basic .many small but very irritating error comes and i was not able to find the solution in a week also . so it is not satisfying. educator should at least disscuss about all that possible errors."
+                },
+                {
+                    "id": "l7rpollx1zxbygrmlky",
+                    "name": "Matthew E G.",
+                    "initials": "MG",
+                    "fullrating": 3,
+                    "halfrating": 0,
+                    "norating": 2,
+                    "timeago": "a month ago",
+                    "review": "I took this course with Python 3.10 utilizing PyCharm as an IDE, so some of the information is a little dated. With that being said, good basics are covered to where figuring out your solution isn't anything too difficult. This course was definitely incredibly helpful in taking a bigger plunge into Python."
+                },
+                {
+                    "id": "l7rpollxtb2dcjrbtc",
+                    "name": "Todd G.",
+                    "initials": "TG",
+                    "fullrating": 3,
+                    "halfrating": 0,
+                    "norating": 2,
+                    "timeago": "2 months ago",
+                    "review": "I am still making my way through the course. However, I like the structure and the pace as well as the pdf exercises. I was learning by watching youtube but it is nice having a structured lesson that gradually progresses in difficulty. It's also nice having a certificate as a way to validate what I've learned to others."
+                },
+                {
+                    "id": "l7rpollxjjpwba0mvmo",
+                    "name": "Bill R.",
+                    "initials": "BR",
+                    "fullrating": 3,
+                    "halfrating": 0,
+                    "norating": 2,
+                    "timeago": "4 months ago",
+                    "review": "Left mouse pointer on text frequentlyRecording setup picked up heavy key strikes making listening difficult.Solved problems well as they came.Covered many functions of python and seemed knowledgeable."
+                },
+                {
+                    "id": "l7rpollxpoqlaw1x00n",
+                    "name": "Rahul T.",
+                    "initials": "RT",
+                    "fullrating": 3,
+                    "halfrating": 0,
+                    "norating": 2,
+                    "timeago": "a month ago",
+                    "review": "As this course is old now so the codes we take from websites are not there as the websites are updated so please update this course."
+                },
+                {
+                    "id": "l7rpollx4h1hfbbb7ep",
+                    "name": "Ritesh Amar S.",
+                    "initials": "RS",
+                    "fullrating": 3,
+                    "halfrating": 0,
+                    "norating": 2,
+                    "timeago": "a month ago",
+                    "review": "The course was amazing . Learned a lot new things."
                 }
             ],
             "requirements": [
