@@ -10,7 +10,8 @@ export default function Content(props) {
         return (
             <>
                 <Accordion.Item eventKey={data.id}>
-                    <Accordion.Header>{data.title}</Accordion.Header>
+                    <Accordion.Header>{data.title}
+                    </Accordion.Header>
                     <Accordion.Body>
                         <ul>
                             <Lessons lessons={data.lessons} />

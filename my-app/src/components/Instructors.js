@@ -11,15 +11,19 @@ export default function Instructors(props) {
             <img src={data.img} alt={data.name} className="instructor-photo" width="150" height="150"  />
             <ul className='link-column'>
                 <li>
+                <i class="fa fa-star " aria-hidden="true"></i>
                     <p className='instructor-info'>{data.rating} Instructor Rating</p>
                     </li>
                     <li>
-                    <p className='instructor-info'>{data.reviews} Reviews Reviews</p>
+                    <i class="fa fa-certificate " aria-hidden="true"></i>
+                    <p className='instructor-info'>{data.reviews} Reviews</p>
                     </li>
                     <li>
+                    <i class="fa fa-users" aria-hidden="true"></i>
                     <p className='instructor-info'>{data.students} Students</p>
                     </li>
                     <li>
+                    <i class="fa fa-play-circle" aria-hidden="true"></i>
                     <p className='instructor-info'>{data.courses} Courses</p>
                     </li>
                 </ul>
