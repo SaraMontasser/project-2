@@ -387,11 +387,11 @@ li{
   list-style-type:disc !important;
   color: #000000;
 }
-.requirements,.description,.instructors,.reviews{
+.requirements,.description,.instructors,.reviews,.feedback{
   font-weight: bold;
   font-size: 25px;
 }
-.requirements-box,.description-box,.instructors-box,.review-box,.more-reviews,.reviews,.review-searchbar{
+.requirements-box,.description-box,.instructors-box,.review-box,.more-reviews,.reviews,.review-searchbar,.feedback-box{
   margin: 1% 18%;
 }
 .instructor-name{
@@ -485,6 +485,29 @@ li{
   color: #6a6f73;
   padding: 1% 6% 1% 1%;
   display: inline-block !important;
+}
+.progress {
+  height: 0.5rem !important;
+  margin-bottom: 1%;
+  border-radius: 0 !important;
+}
+.progress-bar {
+  background-color: #6a6f73;
+}
+.feedback-rate{
+  font-weight: bold;
+  color: goldenrod;
+  font-size: 50px;
+  margin-bottom: 0rem !important;
+}
+.course-rating{
+  font-weight: bold;
+  color: goldenrod;
+  font-size: 15px;
+  margin-bottom: 0rem !important;
+}
+.feedback-rating{
+  padding-left: 0%;
 }
 @media only screen and (max-width:800px) {
 
