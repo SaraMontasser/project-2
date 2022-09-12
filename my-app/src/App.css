@@ -58,7 +58,25 @@
 .notchecked {
   color: gold;
 }
-
+.fav-button{
+  background-color: white;
+  border-radius: 50%;
+  padding: 5%;
+}
+.fa-heart-o{
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+.btn-primary{
+  color: white;
+  background-color: #8710d8;
+  padding: 5% 20%;
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
+  margin-right: 5.5%;
+}
 .ratingsection {
   display: inline-block;
   color: gold;
@@ -303,6 +321,10 @@ li{
  float: right;
  color: white;
  margin: 2%;
+}
+.last-updatedd{
+  color: green;
+  font-size: 10px;
 }
 @keyframes spinner {
   0% {

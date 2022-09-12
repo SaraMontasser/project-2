@@ -2,9 +2,10 @@
     "Python": [
         {
             "id": 1,
-            "field":"Development",
-            "category":"Programming Language",
-            "type":"Python",
+            "field": "Development",
+            "category": "Programming Language",
+            "type": "Python",
+            "paths": "python1",
             "author": "Avinash Jain, The Codex",
             "image": "https://img-c.udemycdn.com/course/750x422/394676_ce3d_5.jpg",
             "title": "Learn Python: The Complete Python Programming Course",
@@ -15,12 +16,10 @@
             "price": "E£679.99",
             "oldPrice": "E£ 1,599.99",
             "lastupdated": "9/2015",
-            "learn":[
+            "learn": [
                 "Create their own Python Programs",
                 "Become an experienced Python Programmer",
                 "Parse the Web and Create their own Games"
-            
-
             ],
             "reviews": [
                 {
@@ -320,8 +319,8 @@
                         "Let's Finish This"
                     ]
                 }
-                
-            ],"Expandedlectures": [
+            ],
+            "Expandedlectures": [
                 {
                     "id": "Twelve",
                     "title": "Python GUI with Tkinter",
@@ -441,9 +440,10 @@
         },
         {
             "id": 2,
-            "field":"Development",
-            "category":"Programming Language",
-            "type":"Python",
+            "field": "Development",
+            "category": "Programming Language",
+            "type": "Python",
+            "paths": "python2",
             "author": "Jose Portilla",
             "image": "https://img-c.udemycdn.com/course/750x422/396876_cc92_7.jpg",
             "title": "Learning Python for Data Analysis and Visualization",
@@ -454,7 +454,7 @@
             "price": "E£679.99",
             "oldPrice": "E£ 1,599.99",
             "lastupdated": "9/2019",
-            "learn":[
+            "learn": [
                 "Have an intermediate skill level of Python programming.",
                 "Use the Jupyter Notebook Environment.",
                 "Use the numpy library to create and manipulate arrays.",
@@ -462,8 +462,6 @@
                 "Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets.",
                 "Create data visualizations using matplotlib and the seaborn modules with python.",
                 "Have a portfolio of various data analysis projects."
-            
-
             ],
             "instructors": [
                 {
@@ -477,7 +475,8 @@
                     "courses": 54,
                     "description": "Jose Marcial Portilla has a BS and MS in Mechanical Engineering from Santa Clara University and years of experience as a professional instructor and trainer for Data Science, Machine Learning and Python Programming. He has publications and patents in various fields such as microfluidics, materials science, and data science. Over the course of his career he has developed a skill set in analyzing data and he hopes to use his experience in teaching and data science to help other people learn the power of programming, the ability to analyze data, and the skills needed to present the data in clear and beautiful visualizations. Currently he works as the Head of Data Science for Pierian Training and provides in-person data science and python programming training courses to employees working at top companies, including General Electric, Cigna, The New York Times, Credit Suisse, McKinsey and many more. Feel free to check out the website link to find out more information about training offerings."
                 }
-            ],"notExpandedlectures": [
+            ],
+            "notExpandedlectures": [
                 {
                     "id": "One",
                     "title": "Up and Running With Python",
@@ -653,8 +652,8 @@
                         "Let's Finish This"
                     ]
                 }
-                
-            ],"Expandedlectures": [
+            ],
+            "Expandedlectures": [
                 {
                     "id": "Twelve",
                     "title": "Python GUI with Tkinter",
@@ -850,11 +849,13 @@
                 "**PLEASE READ BEFORE ENROLLING:** ",
                 "**1.) THERE IS AN UPDATED VERSION OF THIS COURSE:** ",
                 "**\"PYTHON FOR DATA SCIENCE AND MACHINE LEARNING BOOTCAMP\"** ",
-                "**2.) IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE \"COMPLETE PYTHON MASTERCLASS JOURNEY\"!**","",
-                "**CLICK ON MY PROFILE TO FIND IT. (PLEASE WATCH THE FIRST PROMO VIDEO ON THIS PAGE FOR MORE INFO)**",
-                "\\***************************************************************************************************************************",
+                "**2.) IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE \"COMPLETE PYTHON MASTERCLASS JOURNEY\"!**",
                 "",
-                "**This course will give you the resources to learn python and effectively use it analyze and visualize data!**", "**Start your career in Data Science!**",
+                "**CLICK ON MY PROFILE TO FIND IT. (PLEASE WATCH THE FIRST PROMO VIDEO ON THIS PAGE FOR MORE INFO)**",
+                "\\********************************************************************************************************************",
+                "",
+                "**This course will give you the resources to learn python and effectively use it analyze and visualize data!**",
+                "**Start your career in Data Science!**",
                 "  You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data. ",
                 "  You will also get lifetime access to over 100 example python code notebooks, new and updated videos, as well as future additions of various data analysis projects that you can use for a portfolio to show future employers! ",
                 "  By the end of this course you will: ",
@@ -864,10 +865,63 @@
                 "  - Know how to use matplotlib and seaborn libraries to create beautiful data visualization. ",
                 "  - Have an amazing portfolio of example python data analysis projects! ",
                 "- Have an understanding of Machine Learning and SciKit Learn!",
-                "  With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science! "
-                ,"## Who this course is for:",
-                " - Anyone interested in learning more about python, data science, or data visualizations.","- Anyone interested about the rapidly expanding world of data science!"
-            
+                "  With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science! ",
+                "## Who this course is for:",
+                " - Anyone interested in learning more about python, data science, or data visualizations.",
+                "- Anyone interested about the rapidly expanding world of data science!"
+            ]
+        },
+        {
+            "id": 3,
+            "paths": "python3",
+            "title": "Python for Beginners - Learn Programming from scratch",
+            "author": "Jose Portilla",
+            "rating": 4.4,
+            "description": "Python For Beginners : This course is meant for absolute beginners in programming or in python.",
+            "reviewers": "(2,923)",
+            "image": "https://img-b.udemycdn.com/course/480x270/405878_e5a0_3.jpg",
+            "price": "E£679.99",
+            "oldPrice": "E£ 1,599.99",
+            "lastupdated": "5/2022",
+            "learn": [
+                "To learn the python language",
+               "To learn the CORE skills to understand any programming language"
+            ]
+        },
+        {
+            "id": 4,
+            "paths": "python4",
+            "title": "Learn Python: Python for Beginners",
+            "author": "Avinash Jain, The Codex",
+            "rating": 4.4,
+            "description": "Python introduction for beginners. Learn complete Python from scratch!",
+            "reviewers": "(2,923)",
+            "image": "https://img-b.udemycdn.com/course/240x135/426570_1b91_3.jpg",
+            "price": "E£319,99",
+            "oldPrice": "E£ 1,599.99",
+            "lastupdated": "11/2008",
+            "learn": [
+                "Create fully functional Python programs",
+                "Understand user input",
+                "Learn about loop structures and conditionals"
+            ]
+        },
+        {
+            "id": 5,
+            "paths": "python5",
+            "title": "Python Beyond the Basics - Object-Oriented Programming",
+            "author": "Avinash Jain, The Codex",
+            "rating": 4.4,
+            "description": "From Classes To Inheritance - OOP In-Depth For Python Programmers",
+            "reviewers": "(2,923)",
+            "image": "https://img-b.udemycdn.com/course/240x135/449532_2aa9_7.jpg",
+            "price": "E£519,9",
+            "oldPrice": "E£ 1,599.99",
+            "lastupdated": "9/2019",
+            "learn": [
+                "Design Reusable Object-Oriented Python Classes",
+                "Apply OOP Concepts to handle complexity",
+                "How to handle Errors"
             ]
         }
     ]

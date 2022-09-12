@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
-import RenderCourse from './course.js';
+import React from 'react'
+import Course from './course.js';
 import LoadingSpinner from './loadingSpinner'
 export default function courseNotes(props) {
+    // const courseData=props.courseinfo;
     return (
         <div>
             <div className="coursesblocks" id="courseContainer">
@@ -20,7 +21,7 @@ export default function courseNotes(props) {
                 </a>
                 {props.CoursesData!=null? 
                 <>                
-                <RenderCourse />
+                <Course courseinfo={props.CoursesData}/>
                     <button className="circlebutton">
                         <i className="fa fa-chevron-right arrow"></i>
                     </button>
