@@ -1,10 +1,11 @@
 import React from 'react'
+import ReactMarkdown from 'react-markdown'
 
 export default function Description(props) {
     const description=props.courseinfo;
     const desc = description.map((data) => {
         return (
-            <p>{data}</p>
+            <ReactMarkdown>{data}</ReactMarkdown>
         );
 }
     )

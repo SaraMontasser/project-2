@@ -11,8 +11,13 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.3",
+    "react-read-more-read-less": "^1.0.7",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.7",
+    "react-show-more-button": "^1.0.0",
+    "read-more-react": "^1.0.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

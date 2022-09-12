@@ -144,7 +144,7 @@
                     "review": "The course was amazing . Learned a lot new things."
                 }
             ],
-            "lectures": [
+            "notExpandedlectures": [
                 {
                     "id": "One",
                     "title": "Up and Running With Python",
@@ -319,7 +319,9 @@
                         "MatPlotLib with Pandas",
                         "Let's Finish This"
                     ]
-                },
+                }
+                
+            ],"Expandedlectures": [
                 {
                     "id": "Twelve",
                     "title": "Python GUI with Tkinter",
@@ -403,7 +405,7 @@
                     "reviews": 73859,
                     "students": 892299,
                     "courses": 16,
-                    "description": "You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to build fun, practical projects. Now, you can stand out from the crowd and land your dream job.Join us on our platform today!"
+                    "description": "You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to **build fun, practical projects**. Now, you can stand out from the crowd and **land your dream job**.  \n\n\n\n\n\n\nJoin us on our platform today!"
                 }
             ],
             "requirements": [
@@ -411,28 +413,30 @@
                 "Internet Connection"
             ],
             "descriptions": [
-                "Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?",
-                "If you’re looking to learn Python for the very first time or need a quick brush-up, this is the course for you!",
-                "Python has rapidly become one of the most popular programming languages around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes over $100,000 - this number is only going to grow in the coming years.",
-                "The best part? Python is one of the easiest coding languages to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an absolute pro at programming!",
-                "This course will cover all the basics and several advanced concepts of Python. We’ll go over:",
-                "The fundamentals of Python programming",
-                "Writing and Reading to Files",
-                "Automation of Word and Excel Files",
-                "Web scraping with BeautifulSoup4",
-                "Browser automation with Selenium",
-                "Data Analysis and Visualization with MatPlotLib",
-                "Regex parsing and Task Management",
-                "GUI and Gaming with Tkinter",
-                "And much more!",
-                "If you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for almost 4 years, I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over 200,000+ students from over 200 countries jumpstart their programming journeys through my courses.",
+                "**Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?**",
+                "If you’re looking to learn Python for the very **first time** or need a **quick brush-up**, this is the course for you!",
+                "Python has rapidly become one of the **most popular programming languages** around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes **over $100,000** - this number is only going to grow in the coming years.",
+                "The best part? Python is one of the **easiest coding languages** to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an **absolute pro** at programming!",
+                "This course will cover **all the basics** and **several advanced concepts** of Python. We’ll go over:",
+                " - The fundamentals of Python programming",
+                " - Writing and Reading to Files",
+                " - Automation of Word and Excel Files",
+                " - Web scraping with BeautifulSoup4",
+                " - Browser automation with Selenium",
+                " - Data Analysis and Visualization with MatPlotLib",
+                " - Regex parsing and Task Management",
+                " - GUI and Gaming with Tkinter",
+                " - And much more!",
+                "If you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for **almost 4 years**, I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over **200,000+ students** from over **200 countries** jumpstart their programming journeys through my courses.",
                 "Here’s what some of my students have to say:",
-                "“I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!”",
+                " - “I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!”",
                 "",
-                "“I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)”",
+                " - “I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)”",
                 "",
-                "\"Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.”",
-                "So what are you waiting for? Jumpstart your programming journey and dive into the world of Python by enrolling in this course today!"
+                " - “Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.”",
+                "So what are you waiting for? **Jumpstart your programming journey** and dive into the world of Python by **enrolling in this course today!**",
+                "## Who this course is for:",
+                " - Even if you haven't touched coding before, it won't matter. The easy step-to-step lectures will quickly guide you through everything you'll need to know about coding, mainly Python. This course is here for you to get accustomed and familiar with Python and its syntax. And above all, Python is one of the easiest coding languages to learn, and there's a lot you can do with it."
             ]
         },
         {
@@ -471,10 +475,9 @@
                     "reviews": 939702,
                     "students": 3009879,
                     "courses": 54,
-                    "description": "Jose Marcial Portilla has a BS and MS in Mechanical Engineering from Santa Clara University and years of experience as a professional instructor and trainer for Data Science, Machine Learning and Python Programming. He has publications and patents in various fields such as microfluidics, materials science, and data science. Over the course of his career he has developed a skill set in analyzing data and he hopes to use his experience in teaching and data science to help other people learn the power of programming, the ability to analyze data, and the skills needed to present the data in clear and beautiful visualizations. Currently he works as the Head of Data Science for Pierian Training and provides in-person data science and python programming training courses to employees working at top companies, including General Electric, Cigna, The New York Times, Credit Suisse, McKinsey and many more. Feel free to check out the website link to find out more information about training offerings.Show more"
+                    "description": "Jose Marcial Portilla has a BS and MS in Mechanical Engineering from Santa Clara University and years of experience as a professional instructor and trainer for Data Science, Machine Learning and Python Programming. He has publications and patents in various fields such as microfluidics, materials science, and data science. Over the course of his career he has developed a skill set in analyzing data and he hopes to use his experience in teaching and data science to help other people learn the power of programming, the ability to analyze data, and the skills needed to present the data in clear and beautiful visualizations. Currently he works as the Head of Data Science for Pierian Training and provides in-person data science and python programming training courses to employees working at top companies, including General Electric, Cigna, The New York Times, Credit Suisse, McKinsey and many more. Feel free to check out the website link to find out more information about training offerings."
                 }
-            ],
-            "lectures": [
+            ],"notExpandedlectures": [
                 {
                     "id": "One",
                     "title": "Up and Running With Python",
@@ -649,7 +652,9 @@
                         "MatPlotLib with Pandas",
                         "Let's Finish This"
                     ]
-                },
+                }
+                
+            ],"Expandedlectures": [
                 {
                     "id": "Twelve",
                     "title": "Python GUI with Tkinter",
@@ -842,18 +847,17 @@
             ],
             "descriptions": [
                 "",
-                "PLEASE READ BEFORE ENROLLING: ",
-                "1.) THERE IS AN UPDATED VERSION OF THIS COURSE: ",
-                "\"PYTHON FOR DATA SCIENCE AND MACHINE LEARNING BOOTCAMP\" ",
-                "2.) IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE \"COMPLETE PYTHON MASTERCLASS JOURNEY\"!",
+                "**PLEASE READ BEFORE ENROLLING:** ",
+                "**1.) THERE IS AN UPDATED VERSION OF THIS COURSE:** ",
+                "**\"PYTHON FOR DATA SCIENCE AND MACHINE LEARNING BOOTCAMP\"** ",
+                "**2.) IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE \"COMPLETE PYTHON MASTERCLASS JOURNEY\"!**","",
+                "**CLICK ON MY PROFILE TO FIND IT. (PLEASE WATCH THE FIRST PROMO VIDEO ON THIS PAGE FOR MORE INFO)**",
+                "\\***************************************************************************************************************************",
                 "",
-                "CLICK ON MY PROFILE TO FIND IT. (PLEASE WATCH THE FIRST PROMO VIDEO ON THIS PAGE FOR MORE INFO)",
-                "**********************************************************************************************************",
-                "",
-                "This course will give you the resources to learn python and effectively use it analyze and visualize data! Start your career in Data Science!",
-                "    You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data. ",
+                "**This course will give you the resources to learn python and effectively use it analyze and visualize data!**", "**Start your career in Data Science!**",
+                "  You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data. ",
                 "  You will also get lifetime access to over 100 example python code notebooks, new and updated videos, as well as future additions of various data analysis projects that you can use for a portfolio to show future employers! ",
-                "    By the end of this course you will: ",
+                "  By the end of this course you will: ",
                 "  - Have an understanding of how to program in Python. ",
                 "  - Know how to create and manipulate arrays using numpy and Python. ",
                 "  - Know how to use pandas to create and analyze data sets. ",
@@ -861,6 +865,9 @@
                 "  - Have an amazing portfolio of example python data analysis projects! ",
                 "- Have an understanding of Machine Learning and SciKit Learn!",
                 "  With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science! "
+                ,"## Who this course is for:",
+                " - Anyone interested in learning more about python, data science, or data visualizations.","- Anyone interested about the rapidly expanding world of data science!"
+            
             ]
         }
     ]

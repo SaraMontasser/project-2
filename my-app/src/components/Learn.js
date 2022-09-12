@@ -25,7 +25,7 @@ export default function Learn(props) {
     
   return (
     <div>
-        <div className='learn-box'>
+        <div className='learn-box' id="learn-section">
             <p className='learn-headline'>
                 What you'll learn
             </p>

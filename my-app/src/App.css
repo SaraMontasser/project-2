@@ -402,6 +402,7 @@ li{
   font-weight: bold;
   font-size: 18px;
   display: block;
+  margin-top: 1%;
 }
 .instructor-job{
   font-size: 17px;
@@ -514,11 +515,48 @@ li{
   font-size: 15px;
   margin-bottom: 0rem !important;
 }
+.expand-button{
+  display: block;
+  padding: 1% 44.05%;
+  margin-top: 2%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+}
 .feedback-rating{
   padding-left: 0%;
 }
 .play-circle,.exercise-file{
   margin-right: 1%;
+}
+.react-read-more-read-less,.react-read-more-read-less-more{
+  color: #5624d0;
+  font-weight: bold;
+}
+.review-avatar{
+  border-radius: 50%;
+  background-color: #383636;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.course-navbar{
+  border-bottom: 1px solid #383636;
+  padding: 1% 30% 1% 13%;
+  margin-bottom: 3%;
+  
+}
+
+.navbar-container{
+  background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    color: #6a6f73;
+    display: flex;
+    justify-content: space-around;
+    
 }
 @media only screen and (max-width:800px) {
 

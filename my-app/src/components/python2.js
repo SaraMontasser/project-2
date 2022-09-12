@@ -9,6 +9,7 @@ import Description from './Description';
 import Instructors from './Instructors';
 import Reviews from './Reviews';
 import StudentFeedback from './StudentFeedback';
+import CourseNavBar from './CourseNavBar';
 export default function python2(props) {
   if(props.data==null){
     return (
@@ -20,8 +21,9 @@ export default function python2(props) {
   return (
     <div>
         <CourseInfo courseinfo={courseData}/>
+        <CourseNavBar />
         <Learn courseinfo={courseData.learn}/>
-        <CourseContent courseinfo={courseData.lectures}/>
+        <CourseContent courseinfo={courseData}/>
         <Requirements courseinfo={courseData.requirements}/>
         <Description courseinfo={courseData.descriptions}/>
         <Instructors courseinfo={courseData.instructors}/>

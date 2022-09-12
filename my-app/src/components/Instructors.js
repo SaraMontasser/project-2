@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ReactMarkdown from 'react-markdown'
 export default function Instructors(props) {
     const instructors=props.courseinfo;
     const instructor = instructors.map((data) => {
@@ -27,14 +27,16 @@ export default function Instructors(props) {
                     <p className='instructor-info'>{data.courses} Courses</p>
                     </li>
                 </ul>
-                <p>{data.description}</p>
+                
+                <ReactMarkdown>{data.description}</ReactMarkdown>
+            
                
             </>
         );
 }
     )
   return (
-    <div className='instructors-box'>
+    <div className='instructors-box' id="instructor-section">
         <p className='instructors'>Instructors</p>
 {instructor}
     </div>

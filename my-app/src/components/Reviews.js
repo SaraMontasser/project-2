@@ -25,9 +25,8 @@ export default function Reviews(props) {
       };
     const rev = reviews.map((data) => {
         return (
-            <div className='review-box'>
-            {/* <img src={data.img} alt={data.name} className="review-photo" width="150" height="150"  /> */}
-            {/* <div className='review-avatar'>{data.initials}</div> */}
+            <div className='review-box' >
+            <div className='review-avatar'>{data.initials}</div>
             <ul className='review-column'>
                 <li>
                     <p className='review-name'>{data.name}</p>
@@ -56,7 +55,7 @@ export default function Reviews(props) {
 }
     )
   return (
-    <div>
+    <div id="reviews-section">
         <p className='reviews'>Reviews</p>
         <form className="review-searchbar">
 
