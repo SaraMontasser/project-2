@@ -7,7 +7,7 @@ export default function Instructors(props) {
             <>
             <a href="#" className='instructor-name'>{data.name}</a>
             <p className='instructor-job'>{data.job}</p>
-            
+            <div className='instructor-profile'>
             <img src={data.img} alt={data.name} className="instructor-photo" width="150" height="150"  />
             <ul className='link-column'>
                 <li>
@@ -27,7 +27,7 @@ export default function Instructors(props) {
                     <p className='instructor-info'>{data.courses} Courses</p>
                     </li>
                 </ul>
-                
+                </div>
                 <ReactMarkdown>{data.description}</ReactMarkdown>
             
                

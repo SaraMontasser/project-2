@@ -5,6 +5,8 @@ export default function StudentFeedback() {
   return (
     <div className='feedback-box'>
         <p className='feedback'>Student feedback</p>
+        <div className='rating-container'>
+        <div className='rating-written'>
         <ul className='feedback-rating'>
             <li>
             <p className='feedback-rate'>4.4</p>
@@ -21,6 +23,8 @@ export default function StudentFeedback() {
             </li>
 
         </ul>
+        </div>
+      <div className='rating-apearence'>
         <ul>
             <li>
         <ProgressBar now={43} />
@@ -33,7 +37,8 @@ export default function StudentFeedback() {
               <a href="#"> 43%</a>
         </div>
         </li>
-        <li>
+        
+        <li >
         <ProgressBar now={37} />
         <div className='progressBar-stars'>
         <i className="fa fa-star checked"></i>
@@ -78,6 +83,8 @@ export default function StudentFeedback() {
         </div>
         </li>
         </ul>
+    </div>
+    </div>
     </div>
   )
 }

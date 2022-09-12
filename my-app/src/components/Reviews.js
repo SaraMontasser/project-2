@@ -44,12 +44,13 @@ export default function Reviews(props) {
                     <li>
                     <p className='review-question'>Was this review helpful?</p>
                     </li>
-                </ul>
                 <div className='reactions'>
                <button className='react-buttons' ><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></button>
                <button className='react-buttons' ><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
                <a href="#" className="report">Report</a>
                </div>
+                </ul>
+          
             </div>
         );
 }

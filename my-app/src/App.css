@@ -362,12 +362,11 @@ li{
   display: inline-block;
 }
 .learn-column{
-  display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
+      column-gap:9em;
 }
-.learn-column2{
-  display: inline-block;
-    margin-right: 5%;
-}
+
 .learn-headline{
   font-size: 25px;
   font-weight: bold;
@@ -411,8 +410,12 @@ li{
 }
 .instructor-photo{
   border-radius: 50%;
-  margin-top: -11%;
 }
+.instructor-profile,.review-box,.rating-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .instructor-info{
   display: inline-block;
 }
@@ -425,23 +428,12 @@ li{
 }
 .review-box{
   border-bottom:1px solid gray;
-  /* padding: 2%; */
 }
 .review-name{
   font-size: 15px;
   font-weight: bold;
 }
-.review-avatar{
-  background-color: #1c1d1f;
-  border-radius: 50%;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-  display: inline-block;
-  padding: 1.3%;
-  margin-right: 0.5%;
-}
+
 .review-column{
   display: inline-block;
 }
@@ -460,7 +452,6 @@ li{
 .reactions{
   
   display: block;
-  margin: -2% 4% 3% 3%;
 }
 .report{
   color: #383636;
@@ -517,7 +508,7 @@ li{
 }
 .expand-button{
   display: block;
-  padding: 1% 44.05%;
+  padding: 1% 44%;
   margin-top: 2%;
     font-weight: bold;
     font-size: 15px;
@@ -539,6 +530,8 @@ li{
   color: white;
   font-weight: bold;
   font-size: 15px;
+  height: fit-content;
+  padding: 1%;
 }
 .course-navbar{
   border-bottom: 1px solid #383636;
@@ -558,6 +551,11 @@ li{
     justify-content: space-around;
     
 }
+/* @media only screen and (max-width:559px) {
+.instructor-profile{
+  flex-direction: column;
+}
+} */
 @media only screen and (max-width:800px) {
 
   .rightside {
